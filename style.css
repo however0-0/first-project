@@ -3,5 +3,67 @@
     padding: 0;
 }
 body {
+    color: white;
     background-color: black;
+}
+.navbar {
+    background: linear-gradient(to left,gray, rgb(29, 28, 28), gray);
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(to right,#4d4d4d,#2f2f2f,#2f2f2f,#2f2f2f);
+    justify-content: center;
+}
+.first-img {
+    z-index: 0;
+    background: rgb(0, 0, 0, 0);
+}
+.link-any {
+    color:white;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.link-any:hover {
+    color: aqua;
+    transition: 0.3s ease-in-out;
+}
+.nav-to-any {
+    margin-left: 155px;
+}
+.nav-to-any1 {
+    margin-left: 45px;
+}
+.nav-to-any2 {
+    margin-left: 45px;
+}
+.nav-to-any3 {
+    margin-left: 45px;
+}
+.nav-to-any4 {
+    margin-left: 45px;
+}
+.nav-to-any5 {
+    margin-left: 45px;
+}
+.nav-to-any6 {
+    margin-left: 45px;
+}
+.nav-to-any7 {
+    margin-left: 45px;
+    margin-right: 155px;
+}
+.text-of-klava {
+    display: flex;
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
+    justify-content: center;
+    transform: translateY(-650%);
 }
