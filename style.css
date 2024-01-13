@@ -4,7 +4,7 @@
 }
 body {
     color: white;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 .navbar {
     background: linear-gradient(to left,gray, rgb(29, 28, 28), gray);
@@ -18,12 +18,10 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: linear-gradient(to right,#4d4d4d,#2f2f2f,#2f2f2f,#2f2f2f);
     justify-content: center;
 }
-.first-img {
-    z-index: 0;
-    background: rgb(0, 0, 0, 0);
+.img {
+    width: 100%;
 }
 .link-any {
     color:white;
@@ -61,9 +59,53 @@ body {
 }
 .text-of-klava {
     display: flex;
-    font-size: 30px;
+    font-size: 19px;
     color:white;
     text-decoration: none;
     justify-content: center;
-    transform: translateY(-650%);
+    transform: translateY(-100000%);
+    line-height: 1%;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+}
+.text-of-headphones {
+    display: flex;
+    font-size: 19px;
+    color:white;
+    text-decoration: none;
+    justify-content: center;
+    transform: translateY(-100000%);
+    line-height: 1%;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.text:hover {
+    transition: 0.3s ease-in-out;
+    color: aqua;
+}
+.text-of-vr {
+    color: black;
+    line-height: 1%;
+    font-size: 19px;
+    transform: translateY(-53000%);
+    transition: 0.3s ease-in;
+}
+.text-of-vr:hover {
+    color: blue;
+}
+.glass {
+    transform: translateY(-36000%);
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.3s ease-in;
+}
+.name {
+    font-size: 30px;
+    transform: translateY(-66000%);
+    font-weight: 600;
 }
