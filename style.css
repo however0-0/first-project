@@ -232,7 +232,9 @@ footer a:hover {
     .img {
         width: 100%;
     }
-
+    .navbar {
+        width: 100%;
+    }
     .text-of-klava {
         font-size: 14px;
     }
@@ -274,11 +276,15 @@ footer a:hover {
     .container {
         width: 100%;
     }
-
+    .navbar {
+        width: 100%;
+    }
     .img {
         width: 100%;
     }
-
+    .img-watch {
+        width: 100%;
+    }
     .text-of-klava {
         font-size: 12px;
     }
