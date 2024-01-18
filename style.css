@@ -234,6 +234,7 @@ footer a:hover {
     }
     .navbar {
         width: 100%;
+        font-size: 12px;
     }
     .text-of-klava {
         font-size: 14px;
@@ -256,15 +257,15 @@ footer a:hover {
     }
 
     .nav {
-        margin-left: 10px;
+        margin-left: 5px;
     }
 
     .start {
-        margin-left: 10px;
+        margin-left: 5px;
     }
 
     .ends {
-        margin-right: 10px;
+        margin-right: 5px;
     }
 
     .container-watch {
@@ -278,6 +279,7 @@ footer a:hover {
     }
     .navbar {
         width: 100%;
+        font-size: 6px;
     }
     .img {
         width: 100%;
@@ -307,14 +309,17 @@ footer a:hover {
 
     .nav {
         margin-left: 0;
+        font-size: 6px;
     }
 
     .start {
         margin-left: 0;
+        font-size: 6px;
     }
 
     .ends {
         margin-right: 0;
+        font-size: 6px;
     }
 
     .container-watch {
