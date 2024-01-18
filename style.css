@@ -265,6 +265,7 @@ footer a:hover {
     }
 
     .ends {
+        margin-left: 5px;
         margin-right: 5px;
     }
 
@@ -318,6 +319,7 @@ footer a:hover {
     }
 
     .ends {
+        margin-left: 0;
         margin-right: 0;
         font-size: 6px;
     }
