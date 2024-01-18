@@ -309,21 +309,18 @@ footer a:hover {
     }
 
     .nav {
-        margin-left: 0px;
+        margin-left: 10px;
         font-size: 6px;
-        padding: 0;
     }
 
     .start {
-        margin-left: 0px;
+        margin-left: 10px;
         font-size: 6px;
-        padding: 0;
     }
 
     .ends {
-        padding: 0;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
         font-size: 6px;
     }
 
